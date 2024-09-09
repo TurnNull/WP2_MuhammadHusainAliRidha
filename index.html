@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Ali Ar Ridha</title>
+</head>
+<style>
+    * {
+        font-family: 'JetBrains Mono NL', 'Poppins', sans-serif;
+    }
+
+    /* navbar */
+    .navbar {
+        padding: 5px 0;
+        background-color: #475569;
+    }
+    .nav-content {
+        display: flex;
+        padding-left: 0;
+        justify-content: center;
+        list-style: none;
+    }
+    .nav-content li {
+        margin-right: 30px;
+    }
+    .nav-content li a {
+        text-decoration: none;
+        text-underline-offset: 0;
+        color: #fda4af;
+        transition: all 0.5s;
+    }
+    .nav-content li a:hover {
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        color: #e11d48;
+    }
+
+    .content {
+        background-color: #1f2937;
+        color: #e5e7eb;
+        padding: 15px 15px;
+    }
+    .content-center {
+        text-align: center;
+    }
+    .content-title {
+        font-size: 2.4rem;
+        text-transform: uppercase;
+    }
+    .content-p {
+        text-transform: capitalize;
+    }
+
+    /* main content*/
+    .main {
+        margin: 15px 0;
+        padding: 30px 20px;
+        background-color: #fda4af;
+        border-top: #e11d48 solid 3px;
+        border-right: #e11d48 solid 3px;
+        color: #be123c;
+    }
+    .article-content {
+        padding: 1px 15px;
+        transition: all 0.1s;
+    }
+    .article-content:hover {
+        cursor: pointer;
+        background-color: #fecdd3;
+        border-left: #e11d48 solid 1.6px;
+        border-bottom: #e11d48 solid 1.6px;
+        box-shadow: -7px 5px 10px #be123c;
+    }
+    .article-content .article-title {
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+</style>
+<body>
+    <header class="content content-center">
+        <h1 class="content-title">
+            Website 
+            <span style="color: #e11d48;">
+                Ali Ar Ridha
+            </span>
+        </h1>
+        <p class="content-p">
+            Ini adalah tag paragraf dengan 
+            <span style="color: #fda4af; font-weight: bolder; 
+                  text-decoration: underline #e5e7eb;">
+                  text transform
+            </span> 
+            kapital seluruhnya
+        </p>
+    </header>
+    <nav class="navbar">
+        <ul class="nav-content">
+            <li><a href="#"></a></li>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Tentang Saya</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <section>
+            <h2 style="margin: 0; margin-bottom: 10px; 
+                font-size: 2rem; text-align: center; 
+                text-transform: uppercase;">
+                Artikel
+            </h2>
+            <article class="article-content">
+                <h3 class="article-title">Judul Artikel</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sapiente nobis  
+                    maxime veritatis odio saepe nemo aperiam, doloribus odit temporibus et 
+                    recusandae fuga qui iure corrupti unde blanditiis iusto. Distinctio!
+                </p>
+            </article>
+            <article class="article-content">
+                <h3 class="article-title">Judul Artikel</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sapiente nobis 
+                    maxime veritatis odio saepe nemo aperiam, doloribus odit temporibus et 
+                    recusandae fuga qui iure corrupti unde blanditiis iusto. Distinctio!
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer class="content content-center">
+        <p>
+            &copy;Copyright 2024 Dibuat dengan 💖 oleh 
+            <a href="https://instagram.com/ali.ar_ridha?theme=dark" 
+               target="_blank">
+               Ali Ar Ridha
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
